@@ -35,15 +35,18 @@ function decrement(n) {
 }
 decrement(798);
 
-function makeInt(n) {
+function makeInt(n, base) {
     parseInt(n);
     return n;
 }
-makeInt("sldkjflksjf", 10);
+console.log(makeInt('54', 2));
+console.log(makeInt('sldkjflksjf', 1));
 
 
 function preserveDecimal(n) {
     parseFloat(n);
     return n;
+
 }
-preserveDecimal("2.222");
+
+console.log(preserveDecimal("2.222"));
